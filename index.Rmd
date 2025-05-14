@@ -1,23 +1,21 @@
 ---
+title: Mugdha K
 output: 
   html_document:
     theme: null
     toc: true
 ---
-```{=html}
-<link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&family=Montserrat&display=swap" rel="stylesheet">
-
 
 <!-- Navigation Bar -->
 <nav style="position: fixed; top: 0; width: 100%; background-color: #AC7B84; backdrop-filter: blur(5px); z-index: 1000; padding: 10px 5%; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; box-sizing: border-box;">
 <div style="font-weight: bold; font-size: 1.2em;"></div>
 <div style=""font-weight: bold; gap: 100px; flex-wrap: wrap;">
 <p style="font-family: 'Lora', serif;">
-<a href="#Home" style="text-decoration: none; color: #FAF9F6; font-size: 1em; margin-left: 30px; ">Home</a>
-<a href="#About Me" style="text-decoration: none; color: #FAF9F6; font-size: 1em; margin-left: 30px; ">About</a>
-<a href="#Projects" style="text-decoration: none; color: #FAF9F6; font-size: 1em;margin-left: 30px; ">Projects</a>
-<a href="#Media" style="text-decoration: none; color: #FAF9F6; font-size: 1em;margin-left: 30px; ">Media</a>
-<a href="#Contact" style="text-decoration: none; color: #FAF9F6; font-size: 1em;margin-left: 30px; ">Contact</a>
+<a href="#Home" style="text-decoration: none; color: #FAF9F6; font-size: 1.05em; margin-left: 30px; ">Home</a>
+<a href="#About Me" style="text-decoration: none; color: #FAF9F6; font-size: 1.05em; margin-left: 30px; ">About</a>
+<a href="#Projects" style="text-decoration: none; color: #FAF9F6; font-size: 1.05em;margin-left: 30px; ">Projects</a>
+<a href="#Media" style="text-decoration: none; color: #FAF9F6; font-size: 1.05em;margin-left: 30px; ">Media</a>
+<a href="#Contact" style="text-decoration: none; color: #FAF9F6; font-size: 1.05em;margin-left: 30px; ">Contact</a>
 </p>
 </div>
 </nav>
