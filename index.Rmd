@@ -7,44 +7,45 @@ output:
 ```{=html}
 <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&family=Montserrat&display=swap" rel="stylesheet">
 
+
 <!-- Navigation Bar -->
 <nav style="position: fixed; top: 0; width: 100%; background-color: #AC7B84; backdrop-filter: blur(5px); z-index: 1000; padding: 10px 5%; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; box-sizing: border-box;">
 <div style="font-weight: bold; font-size: 1.2em;"></div>
 <div style=""font-weight: bold; gap: 100px; flex-wrap: wrap;">
 <p style="font-family: 'Lora', serif;">
-<a href="#Home" style="text-decoration: none; color: #333; font-size: 1em; margin-left: 30px; ">Home</a>
-<a href="#About Me" style="text-decoration: none; color: #333; font-size: 1em; margin-left: 30px; ">About</a>
-<a href="#Projects" style="text-decoration: none; color: #333; font-size: 1em;margin-left: 30px; ">Projects</a>
-<a href="#Media" style="text-decoration: none; color: #333; font-size: 1em;margin-left: 30px; ">Media</a>
-<a href="#Contact" style="text-decoration: none; color: #333; font-size: 1em;margin-left: 30px; ">Contact</a>
+<a href="#Home" style="text-decoration: none; color: #FAF9F6; font-size: 1em; margin-left: 30px; ">Home</a>
+<a href="#About Me" style="text-decoration: none; color: #FAF9F6; font-size: 1em; margin-left: 30px; ">About</a>
+<a href="#Projects" style="text-decoration: none; color: #FAF9F6; font-size: 1em;margin-left: 30px; ">Projects</a>
+<a href="#Media" style="text-decoration: none; color: #FAF9F6; font-size: 1em;margin-left: 30px; ">Media</a>
+<a href="#Contact" style="text-decoration: none; color: #FAF9F6; font-size: 1em;margin-left: 30px; ">Contact</a>
 </p>
 </div>
 </nav>
 
 <!-- Section 1: Intro Banner -->
-<section id="Home" section style="height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px; background-color: #F1E9DB;">
+<section id="Home" section style="height: 100vh;display: flex; align-items: center; justify-content: center; padding: 10px; background-color: #F1E9DB;">
 <div style="display: flex; align-items: center; gap: 40px; max-width: 1000px; flex-wrap: wrap;">
-<img src="Mugdha picture.jpeg" style="width: 350px; border-radius: 12px;">
+<img src="Mugdha picture.jpeg" style="width: 450px; border-radius: 8px;">
 <div>
-<h1 style="font-family: 'Lora', serif;font-size: 2em; margin: 0;">Hi! I'm Mugdha.</h1>
-<p style="font-family: 'Lora', serif; font-size: 1em; max-width: 500px;">I’m a global health strategist passionate about designing evidence-based interventions and amplifying research into  advocacy through creative storytelling. Welcome to my website!</p>
+<h1 style="font-family: 'Lora', serif;font-size: 2em;color: #773344; margin: 0;">Hi! I'm Mugdha.</h1>
+<p style="font-family: 'Lora', serif; font-size: 1.5em; max-width: 500px;">I’m a global health strategist passionate about designing evidence-based interventions and amplifying research into advocacy through creative storytelling. Welcome to my website!</p>
 </div>
 </div>
 </section>
 
 <!-- Section 2: About Me -->
-<section id="About Me" style="height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px; background-color: #F2F5EA;">
-<div style="max-width: 800px; text-align: left;">
+<section id="About Me" style="display: flex; align-items: center; justify-content: center; padding: 40px; background-color: #F2F5EA;">
+<div style="max-width: 800px; text-align: justify;">
 <h2 style="font-family: 'Lora', serif; font-size: 2.5em;">About Me</h2>
 
-<p style="font-family: 'Lato', serif; font-size: 1em;">My global health experience started in India, where I managed operations for a national nutrition assessment, while also supporting development and institutional fundraising for a global nonprofit. As the regional partnerships coordinator, I also enjoyed building multilateral relationships with policymakers, donors and grassroots partners to drive impact and improve health outcomes in South Asia.</p>
+<p style="font-family: 'Lora', serif; font-size: 1.12em;">My global health experience started in India, where I managed operations for a national nutrition assessment, while also supporting development and institutional fundraising for a global nonprofit. As the regional partnerships coordinator, I also enjoyed building multilateral relationships with policymakers, donors and grassroots partners to drive impact and improve health outcomes in South Asia.</p>
 
-<p style="font-family: 'Lato', serif;font-size: 1em; margin-top: 20px;">I am deeply passionate about development communications—an interest that was fostered through journalistic internships during college. After graduation, I spent a year contributing to feminist research across India, focusing on women’s unpaid labor, labor rights, and healthcare access. Most recently, I’ve worked with research and community-based organizations in New York to transforming environmental health research into actionable ideas for policy and advocacy. 
+<p style="font-family: 'Lora', serif;font-size: 1.12em; margin-top: 20px;">I am deeply passionate about development communications—an interest that was fostered through journalistic internships during college. After graduation, I spent a year contributing to feminist research across India, focusing on women’s unpaid labor, labor rights, and healthcare access. Most recently, I’ve worked with research and community-based organizations in New York City to transform environmental health research into actionable ideas for policy and advocacy. 
 </p>
 
-<p style="font-family: 'Lato', serif;font-size: 1em; margin-top: 20px;">I’ve also worked as a business analyst and management consultant at a leading global consulting firm. I hold a Master's in Public Policy (MPP) and Public Health (MPH) from Columbia University, specialising in environmental health sciences and infectious disease epidemiology.</p>
+<p style="font-family: 'Lora', serif;font-size: 1.12em; margin-top: 20px;">I’ve also worked as a business analyst and management consultant at a leading global consulting firm. I hold a Master's in Public Policy (MPP) and Public Health (MPH) from Columbia University, specialising in environmental health sciences and infectious disease epidemiology.</p>
 
-<p style="margin-top: 20px; font-family: 'Lora', serif; font-size: 0.8em;">
+<p style="margin-top: 5px; font-family: 'Lora', serif; font-size: 0.8em;">
   <a href="Mugdha_CV.pdf" target="_blank" style="text-decoration: none; color: #0077cc;">
     <img src="https://img.icons8.com/ios-filled/20/000000/pdf.png" alt="PDF icon" style="vertical-align: middle; margin-right: 8px;">
     Here's my CV
@@ -55,39 +56,50 @@ output:
 
 <!-- Section 3: Projects -->
 
-<section id="Projects" style="height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 40px 20px; background-color: #F1E9DB; overflow-y: auto;">
-<div style="width: 100%; max-width: 700px; text-align: left;">
-<h2 style="font-family: 'Lora', serif; font-size: 2.5em; margin-bottom: 30px;">Projects</h2>
+<section id="Projects" style="display: flex; align-items: center; justify-content: center; padding: 40px; background-color: #F1E9DB; overflow-y: auto;">
+<div style="width: 100%; max-width: 800px; text-align: justify;">
+<h2 style="font-family: 'Lora', serif; font-size: 2.5em; margin-bottom: 40px">(Some) Projects</h2>
+
 
 <!-- Project 1 -->
-<div style="font-family: 'Lora', serif; display: flex; align-items: flex-start; margin-bottom: 40px;">
-<img src="gaspay.jpeg" alt="Combatting Household Air Pollution in Ghana with Clean Energy (CHAP)" style="width: 220px; height: auto; margin-right: 20px; border-radius: 8px;">
+<div style="font-family: 'Lora', serif; display: flex; align-items: flex-start; margin-bottom: 30px">
+
+<img src="gaspay.jpeg" alt="Combatting Household Air Pollution in Ghana with Clean Energy (CHAP)" style="width: 250px; height: auto; margin-right: 20px; border-radius: 8px;">
 <div>
-<p style="margin: 0 0 8px; font-size: 1em;color: #773344"><strong>Combatting Household Air Pollution in Ghana with Clean Energy (CHAP)</strong></p>
-<p style="font-family: 'Lato', serif;font-size: 1em;">In Ghana, more than 70% of households use wood or charcoal as their primary cooking fuel, which in turn drives household air pollution and results in millions of preventable deaths every year, particularly amongst women and children. The CWP project aims to make access to LPG more accessible by introducing a dedicated savings wallet and driving behaviour change at the household level.</p>
-<p style="margin: 0; font-size: 0.8em;"><a href="https://worldprojects.columbia.edu/news-media/chap-research-clean-cooking-fuels-featured-cover-nature-energy-journal" target="_blank" style="color: #0077cc; text-decoration: none;">Read More about the Project</a><br><a href="https://www.gaspayapp.com/" target="_blank" style="color: #0077cc; text-decoration: none;">Read More about the Intervention</a></p>
+<p style="margin: 0 0 8px; font-size: 1.3em;color: #773344"><strong>Combatting Household Air Pollution in Ghana with Clean Energy (CHAP)</strong></p>
+
+<p style="font-family: 'Lora', serif;font-size: 1em;text-align: justify;">In Ghana, more than 70% of households use wood or charcoal as their primary cooking fuel, which in turn drives household air pollution and results in millions of preventable deaths every year, particularly amongst women and children. The CWP project aims to make access to LPG more accessible by introducing a dedicated savings wallet and driving behaviour change at the household level.</p>
+
+<p style="margin-bottom:20px; font-size: 0.9em"><a href="https://worldprojects.columbia.edu/news-media/chap-research-clean-cooking-fuels-featured-cover-nature-energy-journal" target="_blank" style="color: #0077cc; text-decoration: none;">Read More about the Project</a><br><a href="https://www.gaspayapp.com/" target="_blank" style="color: #0077cc; text-decoration: none; margin-bottom: 20px;">Read More about the Intervention</a></p>
 </div>
 </div>
 
+
 <!-- Project 2 -->
-<div style="font-family: 'Lora', serif; display: flex; align-items: flex-start; margin-bottom: 40px;">
-<img src="transit.jpg" alt="Public Transit Accessibility in NYC" style="width: 180px; height: auto; margin-right: 20px; border-radius: 8px;">
-<div>
-<p style="margin: 0 0 8px; font-size: 1em;color: #773344"><strong>Public Transit Accessibility in NYC</strong></p>
-<p style="font-family: 'Lato', serif;font-size: 1em;">Transit equity in terms of accessibility and proximity to public transit options is an important aspect of environmental justice (EJ). In New York City, most people rely on the subway and bus system as their daily mode of commute. Lack of public transit disproportionately affects low-income, elderly, differently abled, children, and other vulnerable populations that may not have access to or the ability to drive private vehicles as an alternative. It also worsens traffic congestion and air pollution. This poster explores the distribution and accessibility of the transit system, especially in socially vulnerable and high-density neighborhoods and boroughs.</p>
-<p style="margin: 0; font-size: 0.8em;"><a href="GIS_Poster.pdf" target="_blank" style="color: #0077cc; text-decoration: none;">Check out my poster</a></p>
+<div style="font-family: 'Lora', serif; display: flex; align-items: flex-start; margin-bottom: 30px;margin-top: 20px; flex-wrap: nowrap;">
+<div style="flex: 1;">
+<p style="margin: 0 0 8px; font-size: 1.3em; color: #773344;"><strong>Public Transit Accessibility in NYC</strong></p>
+
+<p style="font-family: 'Lora', serif; font-size: 1em; text-align: justify;">
+Transit equity in terms of accessibility and proximity to public transit options is an important aspect of environmental justice (EJ). In New York City, most people rely on the subway and bus system as their daily mode of commute. Lack of public transit disproportionately affects low-income, elderly, differently abled, children, and other vulnerable populations that may not have access to or the ability to drive private vehicles as an alternative. It also worsens traffic congestion and air pollution. This poster explores the distribution and accessibility of the transit system, especially in socially vulnerable and high-density neighborhoods and boroughs.
+</p>
+<p style="margin: 0; font-size:0.9em;">
+<a href="GIS_Poster.pdf" target="_blank" style="color: #0077cc; text-decoration: none; margin-bottom: 20px">Check out my poster</a></p>
 </div>
+<img src="transit.jpg" alt="Public Transit Accessibility in NYC" style="width: 180px; height: auto; margin-left: 20px; border-radius: 8px;">
 </div>
 
 <!-- Project 3 -->
-<div style="font-family: 'Lora', serif; display: flex; align-items: flex-start; margin-bottom: 40px;">
+<div style="font-family: 'Lora', serif; display: flex; align-items: flex-start; margin-bottom: 30px;">
+
 <img src="purple_air.jpeg" alt="Air Quality Monitoring through Citizen Science in Harlem, NYC" style="width: 180px; height: auto; margin-right: 20px; border-radius: 8px;">
 <div>
-<p style="margin: 0 0 8px; font-size: 1em;color: #773344"><strong>Air Quality Monitoring through Citizen Science in Harlem, NYC</strong></p>
-<p style="font-family: 'Lato', serif;font-size: 1em;">Northern Manhattan has long experienced disproportionately poor air quality due to its proximity to major highways, dense traffic, and industrial infrastructure. This persistent pollution burden contributes to elevated rates of asthma, cardiovascular disease, and other respiratory illnesses, particularly among low-income and historically marginalized communities. 
-To fill data gaps in the regulatory air quality monitoring network in Northern Manhattan, WE ACT for Environmental Justice enlisted community members in their Community Air Monitoring Project (CAMP), which follows a community-based participatory research (CBPR) model, to host 11 low-cost PurpleAir PM₂.₅ sensors outside of their homes. I analyzed trends in this air quality data, and presented an interactive dashboard to community members to strengthen citizen science and community-centered advocacy. 
+<p style="margin: 0 0 8px; font-size: 1.3em;color: #773344"><strong>Air Quality Monitoring through Citizen Science in Harlem, NYC</strong></p>
+
+<p style="font-family: 'Lora', serif;font-size: 1em;">Northern Manhattan has long experienced disproportionately poor air quality due to its proximity to major highways, dense traffic, and industrial infrastructure. This persistent pollution burden contributes to elevated rates of asthma, cardiovascular disease, and other respiratory illnesses, particularly among low-income and historically marginalized communities. 
+To fill data gaps in the regulatory air quality monitoring network in Northern Manhattan, WE ACT for Environmental Justice enlisted community members to host 11 low-cost PurpleAir PM₂.₅ sensors outside of their homes. I analyzed trends in this air quality data, and presented an interactive dashboard to community members to strengthen citizen science and community-centered advocacy. 
 </p>
-<p style="margin: 0; font-size: 0.8em;"><a href="https://lrb4fm-mugdha-kinjawadekar.shinyapps.io/dashboard/" target="_blank" style="color: #0077cc; text-decoration: none;">Interact with my dashboard</a></p>
+<p style="margin: 0; font-size: 0.9em;"><a href="https://lrb4fm-mugdha-kinjawadekar.shinyapps.io/dashboard/" target="_blank" style="color: #0077cc; text-decoration: none;margin-bottom: 20px">Interact with my dashboard</a></p>
 </div>
 </div>
 </div>
@@ -95,10 +107,43 @@ To fill data gaps in the regulatory air quality monitoring network in Northern M
 
 
 <!-- Section 4: Media -->
-<section id="Media" style="height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px; background-color: #F2F5EA;">
+<section id="Media" style="display: flex; align-items: center; justify-content: center; padding: 40px; background-color: #F2F5EA;">
 <div style="max-width: 800px; text-align: left;">
 <h2 style="font-family: 'Lora', serif; font-size: 2.5em;">Media</h2>
 
+<p style="margin: 0 0 8px; font-size: 1.3em;color: #773344"><strong> Here's some of the stuff I've written over the years. </strong></p>
 
+<p style="font-family: 'Lora', serif;font-size: 1em"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4666641" target="_blank" style="color: #217185;text-decoration: none;">1. Regulatory Failure as State-Corporate Crime in the Indian Health Sector, SSRN (2023)</a></p>
+
+<p style="font-family: 'Lora', serif;font-size: 1em"><a href="https://www.deccanherald.com/opinion/the-fate-of-the-left-out-a-case-study-of-beed-861288.html" target="_blank" style="color: #217185;text-decoration: none;">2. The Fate of the Left Out : A Case Study of Beed, The Deccan Herald (2020)</a></p>
+
+<p style="font-family: 'Lora', serif;font-size: 1em"><a href="https://feminisminindia.com/2019/09/13/maternal-mortality-rate-india-really-care-mothers/" target="_blank" style="color: #217185;text-decoration: none;">3. Maternal Mortality in Bihar : Does India Really Care about Its Mothers? Feminism In India (2019)</a></p>
+
+<p style="font-family: 'Lora', serif;font-size: 1em"><a href="https://fas.org.in/womens-domestic-work-a-report-from-alabujanahalli-village-karnataka/" target="_blank" style="color: #217185;text-decoration: none;">4. Women’s Domestic Work: A Report from Alabujanahalli Village, Karnataka. Foundation For Agrarian Studies (2017)</a></p>
+
+</div>
+</section>
+
+<!-- Section 5: Contact -->
+<head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<section id="Contact" style="display: flex; align-items: center; justify-content: center; background-color: #E8E8E8; padding: 20px; font-family: 'Lora', serif;">
+<div style="text-align: center;">
+
+<p style="font-family: 'Lora', serif; font-size: 1em; margin-bottom: 20px;">
+<a href="mailto:mk4826@cumc.columbia.edu" style="color: #0077cc; text-decoration: none;">Send me an e-mail!</a>
+</p>
+<div style="display: flex; justify-content: center; gap: 50px;">
+<a href="https://www.linkedin.com/in/mugdhauk/" target="_blank">
+<i class="fab fa-linkedin" style="font-size: 32px; color: #0077b5;"></i>
+</a>
+<a href="https://github.com/mugdhak-dot" target="_blank">
+<i class="fab fa-github" style="font-size: 32px; color: #333;"></i>
+</a>
+</div>
+</div>
+</section>
 
 
